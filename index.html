@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Connect</a>
+        </nav>
+
+        <div class="bx bx-sun" id="darkMode-i"></div>
+
+        <div class="bx bx-menu" id="menu-i"></div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1><span>Prexa</span> Kanabar</h1>
+            <p>a dedicated and innovative software developer with a diverse skill set in python development. 
+                I have a proven track record of successfully completing many challenging projects.
+            </p>
+            <div class="social-media">
+               <a href="https://www.instagram.com/prekss___/"><i class="bx bxl-instagram-alt"></i></a>
+               <a href="https://www.linkedin.com/in/prexa-kanabar-b71789253/"><i class="bx bxl-linkedin"></i></a>
+                
+            </div>
+            <a href="https://drive.google.com/file/d/1GZL86sOFwkdcBMFAmtwEZV7Oj2UHSklO/view?usp=drive_link" class="btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/profile.jpg" alt="profile">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/female.png" alt="profile"> 
+        </div>
+
+        <div class="about-content">
+            <h2><span>About</span> Me</h2>
+            <h3>Hey there,learn a little more about me.</h3>
+                
+                <p><i class="bx bx-crown"></i><b>Name:</b> Prexa Kanabar</p>
+                <p><i class="bx bxs-party"></i><b>Birthdate:</b> 26-December-2002</p>
+                <p><i class="bx bx-female-sign"></i><b>Gender:</b> Female</p>
+                <p><i class="bx bx-location-plus"></i><b>Location:</b> Ahmedabad, India.</p>
+                <p><i class="bx bx-comment-minus"></i><b>Launguages:</b> English, Gujarati, Hindi.</p>
+                
+            
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-container">
+            <div class="education-box">
+                <h3>M.C.A</h3>
+                <p><b>CGPA:9.3</b></p>
+                <p>--Nirma University--</p>
+                <p>2023-(Pursuing Currently)</p>
+                
+            </div>
+            <div class="education-box">
+                <h3>B.C.A</h3>
+                <p><b>CGPA:8.9</b></p>
+                <p>--Saurashtra University--</p>
+                <p>2020-2023</p>
+            </div>
+            <div class="education-box">
+                <h3>12th Grade</h3>
+                <p>2019-2020</p>
+                <p><b>Percentage: 78%</b></p>
+                <p>--St. Francis School Jetpur--</p>
+                
+            </div>
+            <div class="education-box">
+                <h3>10th Grade</h3>
+                <p>2017-2018</p>
+                <p><b>Percentage: 74%</b></p>
+                <p>--St. Francis School jetpur--</p>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="projects" id="projects">
+        <h2 class="heading">My Latest<span> Creations</span> </h2>
+        <div class="projects-container">
+            <div class="projects-box">
+                <img src="images/expense-tracker.jpg" alt="">
+                 
+                <div class="projects-layer">
+                    <h4>Expense Tracker App</h4>
+                    <p>Django-based Expense Tracker application that allows users to track income and expenses and view an analysis of their financial data
+                        using a Chart.js-powered graph.</p>
+                    <!-- <a href="#"><i class="bx bx-link-external"></i> </a> -->
+                </div>
+            </div>
+            <div class="projects-box">
+                <img src="images/voice-assis.png" alt="">
+                 
+                <div class="projects-layer">
+                    <h4>Voice Assistant</h4>
+                    <p>Developed a versatile voice assistant in Python capable of answering questions, providing weather updates, and managing tasks. This
+                        project enhanced my skills in Python, API integration, and AI technologies.</p>
+                    <!-- <a href="#"><i class="bx bx-link-external"></i> </a> -->
+                </div>
+            </div>
+
+            <div class="projects-box">
+                    <img src="images/flappy-bird.png" alt="">
+                     
+                    <div class="projects-layer">
+                        <h4>Flappy Bird</h4>
+                        <p>Developed a Flappy Bird game in C# featuring three difficulty levels (easy, medium, and hard) with varying speeds. The game also
+                            includes a high score tracking system to monitor players' best performances.
+                           </p>
+                        <!-- <a href="#"><i class="bx bx-link-external"></i> </a> -->
+                    </div>
+            </div>
+            
+        </div>
+
+    </section>
+    
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="32ca32f9-cda5-41e5-8ffb-0355fdf927af">
+            <div class="input-box">
+                <input type="text" name="full_name" placeholder="Full Name">
+                <input type="email" name="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" name="mobile_number" placeholder="Mobile Number">
+                <input type="text" name="email_subject" placeholder="Email Subject">
+            </div>
+            <textarea name="messsage" id="" cols="30" rows="10" placeholder="Your Message Here"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Prexa | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i> </a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
